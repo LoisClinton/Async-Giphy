@@ -1,0 +1,53 @@
+body {
+  background-color: black;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-family: "Sometype Mono", monospace;
+}
+#main-group {
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.invisible {
+  visibility: hidden;
+  height: 0%;
+}
+#btn {
+  background-color: grey;
+  border: black;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+#API-key-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20%;
+}
+.API-button {
+  background-color: grey;
+  border: 0;
+  border-radius: 28px;
+  display: block;
+  font-size: 16px;
+  height: 56px;
+  margin-top: 25%;
+  max-width: 300px;
+  outline: none;
+  overflow: hidden;
+  /* position: relative; */
+  top: 560px;
+  width: 100%;
+}
+
+.API-button:active {
+  box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.3);
+}
